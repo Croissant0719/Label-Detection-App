@@ -16,7 +16,7 @@ $ cp config/database.yml.default config/database.yml
 and add your mysql server password to database.yml,
 
 ```
-$ echo GCV_API_KEY=[GOOGLE_CLOUD_VISION_API_KEY] > .env
+$ echo GCV_API_KEY=[YOUR_GOOGLE_CLOUD_VISION_API_KEY] > .env
 ```
 
 ```
