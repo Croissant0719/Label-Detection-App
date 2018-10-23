@@ -1,24 +1,6 @@
-# README
+![](https://img.shields.io/badge/rails-5.2.1-brightgreen.svg)
+![](https://img.shields.io/badge/ruby-2.5.1-green.svg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## <a name="how_to_setup"> how to setup
+$ cd
