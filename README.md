@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Label Detection App
 When you upload picture, this app outputs labels of it.
 
@@ -35,6 +34,3 @@ $ bundle exec rails db:migrate
 ```
 $ bundle exec rails s
 ```
-=======
-
->>>>>>> 49505a1b8ae37c04a9d9a8229e1d76780bfb11c1
