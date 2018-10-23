@@ -1,24 +1,36 @@
-# README
+# Label Detection App
+When you upload picture, this app outputs labels of it.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](https://img.shields.io/badge/rails-5.2.1-brightgreen.svg)
+![](https://img.shields.io/badge/ruby-2.5.1-green.svg)
 
-Things you may want to cover:
+## How to Setup
+```
+$ cd Label-Detection-App
+```
 
-* Ruby version
+```
+$ cp config/database.yml.default config/database.yml
+```
 
-* System dependencies
+and add your mysql server password to database.yml,
 
-* Configuration
+```
+$ echo GCV_API_KEY=[YOUR_GOOGLE_CLOUD_VISION_API_KEY] > .env
+```
 
-* Database creation
+```
+$ bundle install
+```
 
-* Database initialization
+```
+$ bundle exec rails db:create
+```
 
-* How to run the test suite
+```
+$ bundle exec rails db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ bundle exec rails s
+```
