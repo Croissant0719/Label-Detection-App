@@ -1,11 +1,17 @@
+# Label Detection App
+When you upload picture, this app outputs labels of it.
+
 ![](https://img.shields.io/badge/rails-5.2.1-brightgreen.svg)
 ![](https://img.shields.io/badge/ruby-2.5.1-green.svg)
 
-
-## <a name="how_to_setup"> how to setup
+## How to Setup
+```
 $ cd Label-Detection-App
+```
 
+```
 $ cp config/database.yml.default config/database.yml
+```
 
 and add your mysql server password to database.yml,
 
