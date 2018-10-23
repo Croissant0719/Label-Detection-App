@@ -1,0 +1,10 @@
+<h2>結果</h2>
+<%= image_tag @image.file.url, width: '400px' %>
+<br>
+<pre>
+<% @result.each do |tag| %>
+  <%= tag %>
+<% end %>
+</pre>
+<hr/>
+<%= link_to '戻る', new_image_path %>

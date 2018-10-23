@@ -1,0 +1,9 @@
+ <h2>ファイルアップロード</h2>
+<%= form_with(model:@image, local:true) do |f| %>
+  <div>
+    <%= f.file_field :file %>
+  </div>
+  <div>
+    <%= f.submit 'アップロード' %>
+  </div>
+<% end %>
