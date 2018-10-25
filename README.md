@@ -7,9 +7,7 @@ When you upload picture, this app outputs labels of it.
 ## How to Setup
 ```
 $ cd Label-Detection-App
-```
 
-```
 $ cp config/database.yml.default config/database.yml
 ```
 
@@ -17,20 +15,12 @@ and add your mysql server password to database.yml,
 
 ```
 $ echo GCV_API_KEY=[YOUR_GOOGLE_CLOUD_VISION_API_KEY] > .env
-```
 
-```
 $ bundle install
-```
 
-```
 $ bundle exec rails db:create
-```
 
-```
 $ bundle exec rails db:migrate
-```
 
-```
 $ bundle exec rails s
 ```
